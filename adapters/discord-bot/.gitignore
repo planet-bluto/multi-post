@@ -1,0 +1,8 @@
+.npmrc
+
+node_modules/
+
+src/test.ts
+
+package-lock.json
+yarn.lock

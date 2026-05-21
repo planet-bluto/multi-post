@@ -1,0 +1,26 @@
+{
+  "name": "@multi-post/bluesky-adapter",
+  "version": "1.0.0",
+  "description": "BlueSky Adapter for MultiPost",
+  "keywords": ["bluesky", "bsky", "crossposting", "crosspost", "post", "social", "socials", "media", "api", "atproto"],
+  "main": "dist/main.cjs",
+  "scripts": {
+    "dev": "set NODE_ENV=dev&& nodemon --exec ts-node src/test.ts --ignore *.json",
+    "build": "tsdown"
+  },
+  "author": ">PLANET_BLUTO",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/ffprobe": "^1.1.8",
+    "@types/node": "^25.9.1",
+    "ts-node": "^10.9.2",
+    "tsdown": "^0.22.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.20.2",
+    "@multi-post/core": "^1.0.0",
+    "ffprobe": "^1.1.2",
+    "mime": "^4.1.0"
+  }
+}

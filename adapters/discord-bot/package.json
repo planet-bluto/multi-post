@@ -1,0 +1,23 @@
+{
+  "name": "@multi-post/discord-bot-adapter",
+  "version": "1.0.0",
+  "description": "Discord Bot Adapter for MultiPost",
+  "keywords": ["discord", "discord.js", "bot", "crossposting", "crosspost", "post", "social", "socials", "api"],
+  "main": "dist/main.cjs",
+  "scripts": {
+    "dev": "set NODE_ENV=dev&& nodemon --exec ts-node src/test.ts --ignore *.json",
+    "build": "tsdown"
+  },
+  "author": ">PLANET_BLUTO",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "ts-node": "^10.9.2",
+    "tsdown": "^0.22.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@multi-post/core": "^1.0.0",
+    "discord.js": "^14.26.4"
+  }
+}
