@@ -18,7 +18,8 @@ yarn add @multi-post/discord-bot-adapter
 }
 ```
 
-## Multi-Post Config
+## MultiPost Options
+Properties that can be specified in the MultiPost constructor's ``opts`` argument 
 ```ts
 {
 	discord_thread?: string; // Name of thread to create. Usually this is undefined does a reply-chain instead, but just defining this uses threads instead
