@@ -1,8 +1,9 @@
 {
   "name": "@multi-post/discord-bot-adapter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Discord Bot Adapter for MultiPost",
   "keywords": ["discord", "discord.js", "bot", "crossposting", "crosspost", "post", "social", "socials", "api"],
+  "repository": "github:planet-bluto/multi-post",
   "main": "dist/main.cjs",
   "scripts": {
     "dev": "set NODE_ENV=dev&& nodemon --exec ts-node src/test.ts --ignore *.json",

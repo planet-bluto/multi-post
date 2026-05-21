@@ -5,6 +5,7 @@
   "main": "./out/main/index.js",
   "author": "example.com",
   "homepage": "https://electron-vite.org",
+  "repository": "github:planet-bluto/multi-post",
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint --cache .",
