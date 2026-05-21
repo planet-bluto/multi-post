@@ -1,6 +1,11 @@
 # MultiPost
 A plug-in based API wrapper for constructing and making crossposts across multiple different services
 
+<p>
+  <a href="https://www.npmjs.com/package/@multi-post/core" target="_blank"><img alt="npm" src="https://img.shields.io/npm/dt/@multi-post/core?color=%23024aca"></a>
+  <a href="https://www.npmjs.com/package/@multi-post/core" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/@multi-post/core?color=%23024aca"></a>
+</p>
+
 ## Usage
 ```ts
 import { Post, MultiPost, AdapterLibrary } from "@multi-post/core"
