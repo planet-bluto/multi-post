@@ -2,15 +2,12 @@
 A plug-in based API wrapper for constructing and making crossposts across multiple different services
 
 <p>
-
   <a href="https://www.npmjs.com/package/@multi-post/core" target="_blank"><img alt="npm" src="https://img.shields.io/npm/dt/@multi-post/core?color=%23024aca"></a>
-
   <a href="https://www.npmjs.com/package/@multi-post/core" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/@multi-post/core?color=%23024aca"></a>
-
-</p>
+ </p>
 
 ## Installation
- *``@multi-post/bluesky`` & ``@multi-post/discord-bot`` are optional, but they are the official adapters that work with this package*
+ *``@multi-post/bluesky-adapter`` & ``@multi-post/discord-bot-adapter`` are optional, but they are the official adapters that work with this package*
 ```bash
 npm i @multi-post/core @multi-post/bluesky-adapter @multi-post/discord-bot-adapter
 # - or - 

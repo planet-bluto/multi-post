@@ -1,11 +1,8 @@
 # BlueSky Adapter for MultiPost
 
 <p>
-
   <a href="https://www.npmjs.com/package/@multi-post/bluesky-adapter" target="_blank"><img alt="npm" src="https://img.shields.io/npm/dt/@multi-post/bluesky-adapter?color=%23024aca"></a>
-
   <a href="https://www.npmjs.com/package/@multi-post/bluesky-adapter" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/@multi-post/bluesky-adapter?color=%23024aca"></a>
-
 </p>
 
 ## Installation
